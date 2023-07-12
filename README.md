@@ -1,5 +1,6 @@
 # Build-Instructions
-Step by Step Building Guide 
+
+Step by Step Building Guide
 
 ## Content
 
@@ -422,11 +423,11 @@ Next calibrate your probes
 
 TODO ADD PICTURES of the schematic diagram
 
-### Part Four: Connecting Multiple sensors to one ardunio uno serial port
+### Part Four: Connecting Multiple sensors to one Arduino Uno serial port
 
 - Electronically connect the sensors to the port expander and to the Arduino UNO.
 
-- Instruction: [Connecting Multiple sensors to one ardunio uno serial port](https://www.instructables.com/HOW-TO-EXPAND-ONE-SERIAL-PORT-INTO-EIGHT/)
+- Instruction: [Connecting Multiple sensors to one Arduino Uno serial port](https://www.instructables.com/HOW-TO-EXPAND-ONE-SERIAL-PORT-INTO-EIGHT/)
 
 <img src="/images/port_expander.jpg" alt="port expander" width="50%" height="50%">
 
@@ -436,8 +437,17 @@ Attach the camera using the PVC TODO:
 
 ### Part Six: Extract the data to CSV file
 
-We use the Python code to extract the data from Ardunio serial monitor to csv file. We get this Python code from one online tutorial [Arduino Data Logger (CSV) with Sensors and Python](https://www.learnrobotics.org/blog/arduino-data-logger-csv/). This is the link to our code for this project: [ardunio_to_csv.py](/src/python/ardunio_to_csv.py). You will need to install the pyserial library (`pip install pyserial`) to run this code. Remember to close the Ardunio Serial Monitor before running the code.
+We use the Python code to extract the data from Arduino serial monitor to csv file. We get this Python code from one online tutorial [Arduino Data Logger (CSV) with Sensors and Python](https://www.learnrobotics.org/blog/arduino-data-logger-csv/). This is the link to our code for this project: [ardunio_to_csv.py](/src/python/ardunio_to_csv.py). You will need to install the pyserial library (`pip install pyserial`) to run this code. Remember to close the Arduino Serial Monitor before running the code.
 
+### Part Seven: Testing
+
+We tested our ROV in a large pool. However, keep in mind that water with chemicals in it such as chlorine and salt water are corrosive and so it is highly recommended that you rinse your ROV with fresh water after testing in corrosive water.
+
+<img src="/images/testing1.jpg" alt="Pool Testing" width="50%" height="50%">
+
+<img src="/images/testing2.jpg" alt="Pool Testing" width="50%" height="50%">
+
+<img src="/images/pooltestingfinal.gif" alt="Pool Testing" width="50%" height="50%">
 ## References
 
 - [SeaMate](https://seamate.org/)
