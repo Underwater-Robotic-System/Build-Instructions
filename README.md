@@ -448,6 +448,7 @@ We tested our ROV in a large pool. However, keep in mind that water with chemica
 <img src="/images/testing2.jpg" alt="Pool Testing" width="50%" height="50%">
 
 <img src="/images/pooltestingfinal.gif" alt="Pool Testing" width="50%" height="50%">
+
 ## References
 
 - [SeaMate](https://seamate.org/)
