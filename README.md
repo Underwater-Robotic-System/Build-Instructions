@@ -449,6 +449,10 @@ We tested our ROV in a large pool. However, keep in mind that water with chemica
 
 <img src="/images/pooltestingfinal.gif" alt="Pool Testing" width="50%" height="50%">
 
+### Part Eight: Build web interface using Node-RED
+
+- Video tutorial: [Realtime Monitoring of Arduino Inputs on a Webpage using Node RED](https://www.youtube.com/watch?v=hlc5dpv4A_A&ab_channel=PlayfulTechnology)
+
 ## References
 
 - [SeaMate](https://seamate.org/)
