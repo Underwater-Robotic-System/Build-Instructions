@@ -1,6 +1,6 @@
 # Build-Instructions
 
-Step by Step Building Guide
+Step-by-Step Building Guide
 
 ## Content
 
@@ -19,7 +19,7 @@ Step by Step Building Guide
   - [Part One: setup](#part-one-set-up)
   - [Part Two: Probes calibration](#part-two-probes-calibration)
   - [Part Three: Control box](#part-three-control-box)
-  - [Part Four: Connecting Multiple sensors to one ardunio uno serial port](#part-four-connecting-multiple-sensors-to-one-ardunio-uno-serial-port)
+  - [Part Four: Connecting Multiple sensors to one Arduino uno serial port](#part-four-connecting-multiple-sensors-to-one-ardunio-uno-serial-port)
   - [Part Five: Connect sensors to the frame](#part-five-connect-sensors-to-the-frame)
   - [Part Six: Extract the data to CSV file](#part-six-extract-the-data-to-csv-file)
 
