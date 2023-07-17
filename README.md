@@ -455,7 +455,7 @@ We tested our ROV in a large pool. However, keep in mind that water with chemica
 
 #### Step 1: Install Node-red
 
-To run the web interface, you will need to [Install Node-red](https://nodered.org/docs/getting-started/). In this application, I run node-red locally on my computer. Before running the node red, you will need to install a [Supported Node.js versions](https://nodered.org/docs/faq/node-versions). This is one tutorial for [installing node-red on Window](https://www.youtube.com/watch?v=xGzH2Hv31WA&t=499s&ab_channel=ACCAutomation)
+To run the web interface, you will need to [Install Node-red](https://nodered.org/docs/getting-started/). In this application, I run node-red locally on my computer. Before running the node red, you will need to install a [Supported Node.js version](https://nodered.org/docs/faq/node-versions). This is one tutorial for [installing node-red on Window](https://www.youtube.com/watch?v=xGzH2Hv31WA&t=499s&ab_channel=ACCAutomation)
 
 - To run our application you will need to install 2 more node-red packages:
   - [node-red-node-serialport](https://flows.nodered.org/node/node-red-node-serialport)
