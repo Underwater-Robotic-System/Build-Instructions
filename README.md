@@ -451,7 +451,39 @@ We tested our ROV in a large pool. However, keep in mind that water with chemica
 
 ### Part Eight: Build web interface using Node-RED
 
+#### Step 1: Install Node-red
+
+To run the web interface, you will need to [Install Node-red](https://nodered.org/docs/getting-started/). In this application, I run node-red locally on my computer. Before running the node red, you will need to install a [Supported Node versions](https://nodered.org/docs/faq/node-versions). This is one tutorial for [installing node-red on Window](https://www.youtube.com/watch?v=xGzH2Hv31WA&t=499s&ab_channel=ACCAutomation)
+
+- To run our application you will need to install 2 more node-red packages:
+  - [node-red-node-serialport](https://flows.nodered.org/node/node-red-node-serialport)
+  - [node-red-dashboard](https://flows.nodered.org/node/node-red-dashboard)
+
+#### Step 2: Building the node-red application
+
 - Video tutorial: [Realtime Monitoring of Arduino Inputs on a Webpage using Node RED](https://www.youtube.com/watch?v=hlc5dpv4A_A&ab_channel=PlayfulTechnology)
+
+Code for the function in the tutorial
+
+```C
+var outputMsgs = [];
+var values = msg.payload.trim().split(",");
+for (var v in values) {
+    outputMsgs.push({ payload: values[v] });
+}
+return outputMsgs;
+```
+#### Step 3: Deploy the node-red program
+
+- Click the Deploy button on the top right of the page to deploy the program:
+
+[!node-red](/images/node-red.png)
+
+- Then view the web interface using this link: [http://127.0.0.1:1880/](http://127.0.0.1:1880/ui)
+
+- Task: Making graphical running on the web interface
+
+- Deploy node red through netlify
 
 ## References
 
