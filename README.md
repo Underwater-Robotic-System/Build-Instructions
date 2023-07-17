@@ -22,6 +22,8 @@ Step-by-Step Building Guide
   - [Part Four: Connecting Multiple sensors to one Arduino uno serial port](#part-four-connecting-multiple-sensors-to-one-ardunio-uno-serial-port)
   - [Part Five: Connect sensors to the frame](#part-five-connect-sensors-to-the-frame)
   - [Part Six: Extract the data to CSV file](#part-six-extract-the-data-to-csv-file)
+  - [Part Seven: Testing](#part-seven-testing)
+  - [Part Eight: Build web interface using node red](#part-eight-build-web-interface-using-node-red)
 
 ## Parts
 
