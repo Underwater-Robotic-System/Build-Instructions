@@ -465,7 +465,7 @@ To run the web interface, you will need to [Install Node-red](https://nodered.or
 
 Code for the function in the tutorial
 
-```C
+```JS
 var outputMsgs = [];
 var values = msg.payload.trim().split(",");
 for (var v in values) {
@@ -473,6 +473,7 @@ for (var v in values) {
 }
 return outputMsgs;
 ```
+
 #### Step 3: Deploy the node-red program
 
 - Click the Deploy button on the top right of the page to deploy the program:
