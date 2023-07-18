@@ -419,11 +419,11 @@ Next calibrate your probes
 
 #### Flow meter
 
+TODO: 
+
 ### Part Three: Control box
 
 - Drill holes into a plastic box to fit all your electronics. We repurposed a container from an Arduino kit.
-
-TODO ADD PICTURES of the schematic diagram
 
 ### Part Four: Connecting Multiple sensors to one Arduino Uno serial port
 
@@ -435,7 +435,7 @@ TODO ADD PICTURES of the schematic diagram
 
 ### Part Five: Connect sensors to the frame
 
-Attach the camera using the PVC TODO:
+- Attach the camera to the ROV frame using PVC and hot glue. We put the camera on the front side of the vehicle.
 
 ### Part Six: Extract the data to CSV file
 
