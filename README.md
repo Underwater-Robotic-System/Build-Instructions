@@ -424,8 +424,10 @@ TODO:
 ### Part Three: Control box
 
 - Drill holes into a plastic box to fit all your electronics. We repurposed a container from an Arduino kit.
+- Screw the Isolation boards into the bottom of the plastic box.
+(DISCLAIMER) We had older versions of the isolation boards with pins rather than a USB which led us to develop our system using an Arduino and serial port expander. Atlas Scientific now carries [isolation boards with USB connections](https://atlas-scientific.com/carrier-boards/electrically-isolated-usb-ezo-carrier-board/). These USB boards connect to a PC stick and allow for the use of [Atlas Desktop](https://atlas-scientific.com/atlasdesktop/). Since our boards were outdated we were not able to connect to Atlas Desktop and created our own application to view the sensor outputs.
 
-### Part Four: Connecting Multiple sensors to one Arduino Uno serial port
+### Part Four: Connecting Multiple sensors to one Arduino Uno serial port expander
 
 - Electronically connect the sensors to the port expander and to the Arduino UNO.
 
