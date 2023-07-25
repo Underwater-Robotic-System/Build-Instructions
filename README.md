@@ -435,15 +435,19 @@ TODO:
 
 <img src="/images/port_expander.jpg" alt="port expander" width="50%" height="50%">
 
-### Part Five: Connect sensors to the frame
+### Part Five: Add the SD card Arduino Module
+
+Wire the SD card module to the correct pins. TODO
+
+### Part Six: Connect sensors to the frame
 
 - Attach the camera to the ROV frame using PVC and hot glue. We put the camera on the front side of the vehicle.
 
-### Part Six: Extract the data to CSV file
+### Part Seven: Extract the data to a CSV file
 
-We use the Python code to extract the data from Arduino serial monitor to csv file. We get this Python code from one online tutorial [Arduino Data Logger (CSV) with Sensors and Python](https://www.learnrobotics.org/blog/arduino-data-logger-csv/). This is the link to our code for this project: [ardunio_to_csv.py](/src/python/ardunio_to_csv.py). You will need to install the pyserial library (`pip install pyserial`) to run this code. Remember to close the Arduino Serial Monitor before running the code.
+In this project we use Python code to extract the data from Arduino serial monitor to csv file. We get this Python code from one online tutorial [Arduino Data Logger (CSV) with Sensors and Python](https://www.learnrobotics.org/blog/arduino-data-logger-csv/). This is the link to our code for this project: [ardunio_to_csv.py](/src/python/ardunio_to_csv.py). You will need to install the pyserial library (`pip install pyserial`) to run this code. Remember to close the Arduino Serial Monitor before running the code.
 
-### Part Seven: Testing
+### Part Eight: Testing
 
 We tested our ROV in a large pool. However, keep in mind that water with chemicals in it such as chlorine and salt water are corrosive and so it is highly recommended that you rinse your ROV with fresh water after testing in corrosive water.
 
