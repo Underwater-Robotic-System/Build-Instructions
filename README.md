@@ -419,7 +419,7 @@ Next calibrate your probes
 
 #### Flow meter
 
-TODO: 
+TODO
 
 ### Part Three: Control box
 
@@ -493,6 +493,14 @@ return outputMsgs;
 - Task: Making graphical running on the web interface
 
 - Task: Deploy node red through netlify
+
+### Part Nine: Analysis program
+
+- This is the data analysis file: [data_analysis](/src/data_analysis/sensor_data_analysis.ipynb)
+
+- To run the file, you will need to have python install and three python libraries pandas, numpy, and matplotlib.
+
+- Click the `run all` button on top of the file to run the code and the graph will show up at the end of the file.
 
 ## References
 
