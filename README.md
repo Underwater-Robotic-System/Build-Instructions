@@ -347,7 +347,7 @@ Tools and Parts needed:
 - Flow meter
 - Tethers
 - Waterproof material
-- [Extension cables](https://atlas-scientific.com/cables/3-meter-sma-male-to-sma-female-extension-cable/)
+- [3-meter sma male to sma female extension cable](https://atlas-scientific.com/cables/sma-mf-extension-cable/)
 - Electronics storage container
 - Arduino
 - PVC T
