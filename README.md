@@ -8,7 +8,7 @@ Step-by-Step Building Guide
   - [Tool List](https://docs.google.com/spreadsheets/d/1VwJwuMHgYOP06yRYR0DLT3_j4Y_BDbTCyc3LyoblmyQ/edit?usp=sharing)
   - [Part One: Design and Build Frame](#part-one-design-and-build-frame)
   - [Part Two: Propulsion System](#part-two-propulsion-system)
-  - [Part Three: Power System](#part-three-rov-power-system)
+  - [Part Three: Power System](#part-three-rov-power-system)F
   - [Part Four: Analog Control System](#part-four-analog-control-system)
   - [Part Five: Connect the Tether System to the Control System](#part-five-connect-the-tether-system-to-the-control-system)
   - [Part Six: Waterproofing the Camera](#part-six-waterproofing-the-camera)
@@ -416,10 +416,6 @@ Next calibrate your probes
 - Code and wiring: [Temperature sensor calibration](https://files.atlas-scientific.com/Arduino-Uno-RTD-sample-code.pdf)
 
 - Calibration can be done at any value, a simple method is to calibrate the probe in boiling water (100 degree Celsius)
-
-#### Flow meter
-
-TODO
 
 ### Part Three: Control box
 
