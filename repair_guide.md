@@ -21,7 +21,7 @@ If the motors continue to not work and the sabertooth controller is flashing red
 
 Replacing the sabertooth requires unscrewing all the wires, taking out the PCB board carefully, and unscrewing the controller from the board. Use some **heatsink compound** on the back of the new controller before putting it in. This helps to make sure it does not overheat. Screw all the pieces and wires back in thier original positions.
 
-![image](https://github.com/user-attachments/assets/8057f1d5-a5c0-4f5b-a52f-4c12b9c92297)
+![Sabertooth Wiring](sabertoothwiring.PNG)
 
 
 ## Camera Issues
