@@ -11,6 +11,7 @@ This guide provides troubleshooting steps and solutions for common issues with y
 3. [Motor Issues](#motor-issues)
     - [Joystick Drift](#joystick-drift)
     - [Sabertooth Controller Issues](#sabertooth-controller-issues)
+    - [Water Damage](#water-damage)
 4. [Camera Issues](#camera-issues)
 5. [Portable Power Generator Issues](#portable-power-generator-issues)
 6. [Software Issues](#software-issues)
@@ -75,13 +76,23 @@ If there are more issues with the control box being converted back to digital mo
 
 [Control Box Build Digital Guide by SeaMate](https://docs.google.com/presentation/d/e/2PACX-1vSaJHo9mUlmZ_VFU7EeYjHr5jsFbRT6R-QFL30TU9lDHdw7xt-9oLNg8te0xLp8fXEJK5ztT22pUU_C/pub?start=false&loop=false&delayms=3000&slide=id.p1)
 
----
+### List of Important connections
+- **Sabertooth Controllers:** Ensure all wires are secure and connected to the correct pins and the positions are set correctly based on whether you are in analog or digital mode.
+- **Joystick:** Check the joystick connections. Sometimes the soldering in the yellow box or the pins in the red box can come loose. If the joystick is not working, check the connections to the joystick and make sure they are secure.
+- **Motor Cable** Connect the large silver cable to the control box on the back ensuring that the pins are aligned correctly by looking at the numbers on the inside of the cable and the control box. The numbers should match up. If they do not, the motors will not work properly.
+- **Power Generator:** Ensure the generator is charged and the DC output is enabled by pressing the button below the DC output plug. Connect it to the Anderson power pole connector and then to the red and black plugs on the control box.
+- **Power Switch** Ensure the power switch on the control box is turned on. The switch should be in the "ON" position and the red light should be on. If the switch is not turned on, the robot will not turn on.
+- **Video System:** Ensure the video system is connected properly. The monitor should be plugged into the controller box and the camera should be connected to the controller box as well. The camera should be plugged into the yellow port on the controller box and the power wire should be connected to the red port on the black cable.
+- **Arduino:** (If in digital mode) Ensure the Arduino is connected properly to the black extension cable and to the computer.
+- **Depth Sensor:** (If in digital mode) Ensure the depth sensor is connected properly. The sensor connection is on the Arduino board and connects to the multicolor cable on the robot tether.
+- **Other Sensors** Connect the other sensors to the sensor box by plugging each wire with the correct color noted on the tape.
+
 
 ## Motor Issues
 
 ### Joystick Drift
 
-If the joystick is drifting, it may be due to a bad potentiometer. You can tell this is an issue if one or more of the motors never fully turns off. The potentiometer is the component inside the joystick that detects the position of the joystick. If it is not working properly, it can cause the robot to drift in one direction or another. You can test this to see if there is any position the motors are fully stopping by gently moving the joystick in all directions and seeing if the motors stop or get any closer to stopping. This means the home setting of the joystick is not actually where the motors are stopping anymore. This can happen overtim by wear and tear on the joystick or if the joystick is dropped or damaged.
+If the joystick is drifting, it may be due to a bad potentiometer. You can tell this is an issue if one or more of the motors never fully turns off. The potentiometer is the component inside the joystick that detects the position of the joystick. If it is not working properly, it can cause the robot to drift in one direction or another. You can test this to see if there is any position the motors are fully stopping by gently moving the joystick in all directions and seeing if the motors stop or get any closer to stopping. This means the home setting of the joystick is not actually where the motors are stopping anymore. This can happen overtime by wear and tear on the joystick or if the joystick is dropped or damaged.
 
 To fix this the best solution is to replace the joystick. You can buy the joystick separately or the whole kit from [SeaMate](https://seamate.org/collections/barracuda-rov/products/sabertooth-joystick-replacement-kit).
 
@@ -111,6 +122,12 @@ For more information on the sabertooth controller, refer to the [Sabertooth Powe
     - ![Sabertooth Wiring](repair_guide_images/sabertoothwiring.PNG)
 - [Sabertooth Powerpoint by SeaMate](https://docs.google.com/presentation/d/e/2PACX-1vRFP-ZPQkCo_Jx7r8_KIzDjlaPUm8ab588ryvPmsn5yvhOffjHJ8nfAnJD0QdS-N_Us_cYrgIzRN6ts/pub?start=false&loop=false&delayms=3000&slide=id.g15f7ea19d6_0_14)
 
+### Water Damage
+
+If the ROV has been submerged in water for an extended period of time, it is possible that the motors or wiring have been damaged by water. If this is the case, the best solution is to replace the damaged parts nd make sure there are no wires that are exposed to water. You can seal the wiring with [coax seal](https://atlas-scientific.com/waterproofing/coax-sealer/) and hot glue to prevent future issues.
+
+- **Symptoms:** Motors not responding, visible corrosion, or water in the wiring.
+- **Solution:** Replace damaged motors or wiring. Ensure all connections are waterproofed and sealed to prevent future issues.
 ---
 
 ## Camera Issues
@@ -190,7 +207,6 @@ Another thing to check is that the water proofing is intact. If the sensor is no
     - Abnormally large readings: Sensor too close to motors/walls (keep >10cm away).
     - Water proofing: Inspect for cracks/damage; use [coax seal](https://atlas-scientific.com/waterproofing/coax-sealer/).
     - Let sensor dry in air for at least 2 hours daily to prevent drift.
-
 ---
 
 ## Resources
