@@ -42,7 +42,7 @@ For analog mode, the sabertooth controller needs to be set to the correct pins/d
 
 Finally to switch to analog mode all 4 jumpers need to be connected to the "C2" position as seen below.
 
-![Jumpers Analog Position](repair_guide_images/sabertoothwiring.PNG)
+![Jumpers Analog Position](repair_guide_images/jumpers.PNG)
 
 If there is issues with the control box build refer back to the [Control Box Build Guide by SeaMate](https://docs.google.com/presentation/d/e/2PACX-1vRtIemncL3JVpDB7jIuYOOvCOdgGI8xzUyhYJl8N8HHexPyqrFNaqludSkgZgUaFctHBfSlmvy4tpxE/pub?start=false&loop=false&delayms=3000&slide=id.p)
 
