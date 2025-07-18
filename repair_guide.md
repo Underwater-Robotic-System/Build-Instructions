@@ -54,7 +54,7 @@ If things are working in analog mode, then the issue is likely with the Arduino 
 2. **Set Sabertooth DIP Switches:** Set all DIP switches to the "ON" position on both controllers.
     - ![Sabertooth Analog Pins](repair_guide_images/analogpins.PNG)
 3. **Set Jumpers:** Connect all 4 jumpers to the "C2" position.
-    - ![Jumpers Analog Position](repair_guide_images/sabertoothwiring.PNG)
+    - ![Jumpers Analog Position](repair_guide_images/jumpers.PNG)
 4. **Test:** If motors work in analog mode, the Arduino/code may be the issue. If not, check the Sabertooth controller, motors, or hardware.
 
 ### Reverting Back to Digital Mode from Analog Mode
